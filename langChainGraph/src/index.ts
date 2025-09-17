@@ -124,23 +124,23 @@
 // singleInteraction();
 // }
 
-import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-import { HumanMessage } from "@langchain/core/messages";
-import { createReactAgent } from "@langchain/langgraph/prebuilt";
-import { MemorySaver } from "@langchain/langgraph";
-import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import dotenv from "dotenv";
+// import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
+// import { HumanMessage } from "@langchain/core/messages";
+// import { createReactAgent } from "@langchain/langgraph/prebuilt";
+// import { MemorySaver } from "@langchain/langgraph";
+// import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
+// import dotenv from "dotenv";
 
-const model = new ChatGoogleGenerativeAI({
-  model: "gemini-1.5-pro",
-  temperature: 0.1,
-  apiKey: "AIzaSyAj9Px9MSZH3SBerJUSPDCxYC4EUVyZLws",
-});
+// const model = new ChatGoogleGenerativeAI({
+//   model: "gemini-1.5-pro",
+//   temperature: 0.1,
+//   apiKey: "AIzaSyAj9Px9MSZH3SBerJUSPDCxYC4EUVyZLws",
+// });
 
-const generateImage = async (prompt: string) => {
-  console.log("in the generate image");
+// const generateImage = async (prompt: string) => {
+//   console.log("in the generate image");
 
-  const reponse = await model;
-};
+//   const reponse = await model;
+// };
 
-generateImage("a cute cat");
+// generateImage("a cute cat");
